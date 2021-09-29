@@ -2,7 +2,11 @@
     background-color: #2C3E50;
 }
 .bg_green{
-    background-color: #1ABC9C;
-
-    
+    background-color: #1ABC9C;  
+}
+.set_input_tag {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
 }
