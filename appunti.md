@@ -1,5 +1,11 @@
 ho trovato all'interno della documentazione la tipologia di sticky-top ovvero un header fisso, per far in modo che il contenuto scorra
 
+d-inline d-sm-none 
+display inline e display small none ovvero che quando entriamo nella small non verra piuù visualizzato
+
+d-none d-sm-inline-block 
+invece questo caso al contrario di default non viene visualizzato quando si entra nella small verrà visualizzato
+
 
 container invece si adatta alla dimensione della responsive ovvero nella situazione base ha il 100% per dimensioni inferiori a 576px nella sezione dei dispositivi small ovvero quelli maggiori di 576px e minori di 767px ha una dimensione di 540px per e così via https://getbootstrap.com/docs/5.0/layout/containers/
 sticky-top = header fixed
@@ -33,3 +39,4 @@ list-inline allinea gli elementi della lista
     ricordati che va messo in combinazione con list-inline-item all'interno dell'li
 
 mx-1 margine left e right *.25rem
+text-dark testo nero

@@ -35,3 +35,13 @@ footer .circle a i {
 .text_green{
     color: #1ABC9C;
 }
+.separation_line{
+    width: 15%;
+    height: 3px;
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
+.white{
+    background-color: white;
+}
