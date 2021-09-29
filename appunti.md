@@ -1,5 +1,7 @@
 ho trovato all'interno della documentazione la tipologia di sticky-top ovvero un header fisso, per far in modo che il contenuto scorra
 
+
+container invece si adatta alla dimensione della responsive ovvero nella situazione base ha il 100% per dimensioni inferiori a 576px nella sezione dei dispositivi small ovvero quelli maggiori di 576px e minori di 767px ha una dimensione di 540px per e così via https://getbootstrap.com/docs/5.0/layout/containers/
 sticky-top = header fixed
 
 py-3 =padding top bottom default
@@ -22,4 +24,12 @@ funziona che partendo dalla visualizzazione più piccola per poi ingrandirsi sem
 
 pb-3 padding bottom - default
 btn btn-outline-light
-crea  un bottone con solo linee chiare
+crea  un bottone con solo linee bianche 
+
+mb-0 leva il margine al bottom 
+
+list-unstyled serve per rimuovere lo stile alla lista
+list-inline allinea gli elementi della lista 
+    ricordati che va messo in combinazione con list-inline-item all'interno dell'li
+
+mx-1 margine left e right *.25rem
