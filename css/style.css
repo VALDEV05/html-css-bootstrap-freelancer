@@ -45,3 +45,22 @@ footer .circle a i {
 .white{
     background-color: white;
 }
+
+
+
+/*-------------------
+        BONUS
+--------------------*/
+
+/* prova hover image */
+.cover_image{
+  height: 100%;
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.d_none{
+  display: none;
+}
+#cover_image:hover .d_none{
+  display: block;
+}

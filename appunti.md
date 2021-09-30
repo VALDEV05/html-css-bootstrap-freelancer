@@ -40,3 +40,12 @@ list-inline allinea gli elementi della lista
 
 mx-1 margine left e right *.25rem
 text-dark testo nero
+
+
+
+
+<!-------------------
+HO INIZIATO I BONUS
+-------------------->
+
+NON RIESCO A RENDERE INVISIBILE LA COVER_IMAGE
