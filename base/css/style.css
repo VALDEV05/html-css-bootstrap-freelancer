@@ -27,8 +27,14 @@ footer .circle a i {
 .bg_green{
     background-color: #1ABC9C;  
 }
+.bg_green_light{
+    background-color: #8CCEC1;
+}
 .bg_blue{
     background-color: #3A546D;
+}
+.bg_blue_light{
+    background-color: #608BB5;
 }
 /* color text */
 .text_green{
@@ -66,4 +72,12 @@ footer .circle a i {
 }
 .icon_plus{
     transform: scale(4);
+}
+.form.form-control,
+.form.btn.btn-primary,
+.form-check-input.form,
+.form.form-label,
+.form.form-select,
+.form.input-group-text{
+    background-color: #9DC1E4 !important; 
 }

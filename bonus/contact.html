@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../base/css/style.css">
     <!-- TITLE -->
     <title>Contact Freelancer </title>
 </head>
@@ -38,5 +38,194 @@
             </div>
         </nav>
     </header>
+    <main>
+        <div class="bg_green_light">
+            <h2 class="text-center text-light">Per essere ricontattato compila il form</h2>
+            <div class="container">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label text-light">First name</label>
+                        <input type="text" class="form-control form text-secondary" id="validationCustom01" value="Mark" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label text-light">Last name</label>
+                        <input type="text" class="form-control form text-secondary" id="validationCustom02" value="Otto" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label text-light">Username</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text form text-light" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control form" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                                required>
+                            <div class="invalid-feedback text-light">
+                                Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label text-light">City</label>
+                        <input type="text" class="form-control form" id="validationCustom03" required>
+                        <div class="invalid-feedback text-light">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label text-light">State</label>
+                        <select class="form-select form" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>...</option>
+                        </select>
+                        <div class="invalid-feedback text-light">
+                            Please select a valid state.
+                        </div>
+                    </div> -->
+                    <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label text-light">Zip</label>
+                        <input type="text" class="form-control form" id="validationCustom05" required>
+                        <div class="invalid-feedback text-light">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input form" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label text-secondary" for="invalidCheck">
+                                Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback text-light">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary form" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div class="container py-3">
+                <div class="row">
+                    <!-- colonna location -->
+                    <div class="col-6 col-sm-4 text-center text-light pb-3">
+                        <form class="py-5">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputEmail1" class="form-label">Email Login</label>
+                                <input type="email" class="form-control form" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control form" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check text-start">
+                                <input type="checkbox" class="form-check-input form" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary form text-start">Submit</button>
+                        </form>
+                    </div>
+                    <!-- colonna freelancer -->
+                    <div class="col-6 col-sm-5 offset-sm-3 text-center text-light py-5">
+                        <h6 class="mb-0 py-1">ABOUT FREELANCER</h6>
+            
+                        <p class="mb-0">Freelancer is a free to use, open source Bootstrap theme created by <span
+                                class="text_green">Start Bootstrap</span>.</p>
+                        <p class="mb-0">Freelancer is a free to use, open source Bootstrap theme created by <span class="text_green">Start
+                                Bootstrap</span>.</p>
+                        <p class="mb-0">Freelancer is a free to use, open source Bootstrap theme created by <span class="text_green">Start
+                                Bootstrap</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <footer>
+        <!-- sezione INFO E CONTATTI -->
+        <section class="bg_blue">
+            <div class="container py-3">
+                <div class="row">
+                    <!-- colonna location -->
+                    <div class="col-12 col-sm-4 text-center text-light pb-3">
+                        <h6 class="mb-0 py-1">LOCATION</h6>
+    
+                        <p class="mb-0">2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+    
+                    <!-- colonna social network -->
+                    <div class="col-12 col-sm-4 text-center text-light pb-3">
+                        <h6 class="mb-0 py-1">AROUND THE WEB</h6>
+    
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item circle mx-1">
+                                <a class="text-light" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item circle mx-1">
+                                <a class="text-light" href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item circle mx-1">
+                                <a class="text-light" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item circle mx-1">
+                                <a class="text-light" href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- colonna freelancer -->
+                    <div class="col-12 col-sm-4 text-center text-light pb-3">
+                        <h6 class="mb-0 py-1">ABOUT FREELANCER</h6>
+    
+                        <p class="mb-0">Freelancer is a free to use, open source Bootstrap theme created by <span
+                                class="text_green">Start Bootstrap</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Copyright -->
+        <section class="bg_dark_blue">
+            <div class="container text-center text-light py-3">
+                Copyright &copy; Your Website 2019
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
