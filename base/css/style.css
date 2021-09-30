@@ -1,0 +1,69 @@
+/* togliere i bordi al form */
+.set_input_tag {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+/* icone circolari footer */
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+footer .circle a {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 26px;
+}
+footer .circle a i {
+    font-size: 10px;
+    line-height: 24px;
+}
+/* color background */
+.bg_dark_blue{
+    background-color: #2C3E50;
+}
+.bg_green{
+    background-color: #1ABC9C;  
+}
+.bg_blue{
+    background-color: #3A546D;
+}
+/* color text */
+.text_green{
+    color: #1ABC9C;
+}
+.separation_line{
+    width: 15%;
+    height: 3px;
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
+.white{
+    background-color: white;
+}
+
+
+
+/*-------------------
+        BONUS
+--------------------*/
+
+/* prova hover image */
+.cover_image{
+  height: 100%;
+  width: 95%;
+  background-color: rgba(69, 130, 115, 0.7);
+}
+.visibility_cover{
+  visibility: hidden;
+}
+#cover_image:hover .visibility_cover{
+  visibility: visible;
+  cursor: pointer;
+}
+.icon_plus{
+    transform: scale(4);
+}
