@@ -42,10 +42,9 @@ mx-1 margine left e right *.25rem
 text-dark testo nero
 
 
-
+aggiunto margine nella sezione about per staccarlo dalla sezione delle immagini responsive
 
 <!-------------------
 HO INIZIATO I BONUS
 -------------------->
-
-NON RIESCO A RENDERE INVISIBILE LA COVER_IMAGE
+creata una cover_image, ovvero una maschera che attraverso l'hover impostato nel css oscura l'immagine

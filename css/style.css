@@ -56,11 +56,15 @@ footer .circle a i {
 .cover_image{
   height: 100%;
   width: 95%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(69, 130, 115, 0.7);
 }
-.d_none{
-  display: none;
+.visibility_cover{
+  visibility: hidden;
 }
-#cover_image:hover .d_none{
-  display: block;
+#cover_image:hover .visibility_cover{
+  visibility: visible;
+  cursor: pointer;
+}
+.icon_plus{
+    transform: scale(4);
 }
